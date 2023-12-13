@@ -35,6 +35,7 @@ io.on('connection', (socket) => {
 });
 
 
-server.listen(PORT,()=>{
+server.listen(PORT, () => {
+    console.log("server started");
     console.log("http://localhost:"+PORT)
 });
